@@ -9,11 +9,18 @@ For practice, write this code inside a function.
 void main(){
 // Declaring the List values to use
 List a = [5, 10, 15, 20, 25];
+
 // print the first element in the List using index at [0]
 print(a[0]);
-// print the last element in List, use list[list.length-1] ie this looks at the list 
-num firstNum = a.first;
-num lastNum = a.last;
-print(lastNum);
+
+// declaring a lastNum as a num variable and using the first fucntion of List
+num lastNum = a.first;
+
+// print the last element in List, using  last function of list
+num firstNum = a.last;
+
+// printing results using firstNum fir first element and lastNum for last element
 print(firstNum);
+print(lastNum);
+
 }
